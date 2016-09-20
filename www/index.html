@@ -68,7 +68,7 @@
             $("#app-status-ul").append('<li>Ingreso desde un ' + device.platform + '</li>');
             if (device.platform == 'android' || device.platform == 'Android' ||
                     device.platform == 'amazon-fireos' ) {
-                pushNotification.register(successHandler, errorHandler, {"senderID":"469201422848","ecb":"onNotification"});		// required!
+                pushNotification.register(successHandler, errorHandler, {"senderID":"807412467094","ecb":"onNotification"});		// required!
             } else {
                 pushNotification.register(tokenHandler, errorHandler, {"badge":"true","sound":"true","alert":"true","ecb":"onNotificationAPN"});	// required!
             }
